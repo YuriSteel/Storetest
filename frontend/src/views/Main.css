@@ -1,0 +1,44 @@
+.Main {
+    padding-top: 30px;
+    background-color: #1c1c1c; /* Тёмный фон */
+    color: #ffffff; /* Белый текст */
+}
+
+.Main .addProduct {
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    background-color: #445569; /* Тёмно-серый фон */
+    border-radius: 10px;
+    font-size: 16pt;
+    color: #ffffff; /* Белый текст */
+}
+
+.Main .addProduct:hover {
+    background-color: #2d3c4b; /* Тёмно-синий фон при наведении */
+}
+
+.Main .mainGrid {
+    width: 100%;
+    padding: 30px;
+    row-gap: 30px;
+    min-height: calc(100vh - 50px - 50px);
+    background-color: #2d2d2d; /* Тёмный фон */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #ffffff; /* Белый текст */
+}
+
+@media (max-width: 768px) {
+    .Main .mainGrid {
+        min-height: calc(100vh - 160px - 50px);
+        padding: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 426px) {
+    .Main .mainGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

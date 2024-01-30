@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "65b7f7659e563bf4868a179f"
+  },
+  "login": "123",
+  "password": "123",
+  "email": "123@123.32",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b8042eefc8984bf3d6c06a"
+  },
+  "login": "1111",
+  "password": "1111",
+  "email": "sasa@sdad.rr",
+  "__v": 0
+}]

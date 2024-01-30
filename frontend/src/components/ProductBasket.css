@@ -1,0 +1,61 @@
+.ProductBasket {
+    width: 250px;
+    height: 480px;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 5px #2d2d2d; /* Тёмная тень */
+    margin: auto;
+    background-color: #2d2d2d; /* Тёмный фон */
+    color: #ffffff; /* Белый текст */
+}
+
+.ProductBasket img {
+    height: 250px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.ProductBasket h1 {
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+
+.ProductBasket p {
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+.ProductBasket .del {
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    background-color: #445569; /* Тёмно-серый фон */
+    border-radius: 10px;
+    font-size: 16pt;
+    color: #ffffff; /* Белый текст */
+}
+
+.ProductBasket .del:hover {
+    background-color: #2d3c4b; /* Тёмно-синий фон при наведении */
+}
+
+.ProductBasket .basketQty {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ProductBasket .basketQty button {
+    width: 30px;
+    border-style: none;
+    background-color: #445569; /* Тёмно-серый фон */
+    border-radius: 10px;
+    font-size: 16pt;
+    color: #ffffff; /* Белый текст */
+}
+
+.ProductBasket .basketQty button:hover {
+    background-color: #2d3c4b; /* Тёмно-синий фон при наведении */
+}

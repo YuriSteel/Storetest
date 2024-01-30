@@ -1,0 +1,42 @@
+.ModalBox {
+    min-width: 300px;
+    height: auto;
+    min-height: 150px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2d2d2d; /* Тёмный фон */
+    color: #ffffff; /* Белый текст */
+}
+
+.echo {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 50%;
+}
+
+.ModalBox {
+    background-color: #2d2d2d; /* Тёмный фон модального окна */
+    color: #ffffff; /* Белый текст */
+}
+
+.ModalBoxContent {
+    background-color: #2d2d2d; /* Тёмный фон внутри модального окна */
+    color: #ffffff; /* Белый текст внутри модального окна */
+}
+
+
+.ModalBox button {
+    background-color: #72bbf4;
+    color: #ffffff; /* Белый текст для кнопок */
+}
+
+.ModalBox button:hover {
+    background-color: #51aaef;
+}

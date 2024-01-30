@@ -1,0 +1,39 @@
+.Registration {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+    background-color: #2d2d2d; /* Тёмный фон */
+    color: #ffffff; /* Белый текст */
+}
+
+.Registration h1 {
+    margin-bottom: 20px;
+}
+
+.Registration input {
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #445569; /* Тёмно-серый фон для input */
+    color: #ffffff; /* Белый текст */
+}
+
+.Registration button {
+    height: 30px;
+    width: auto;
+    border-radius: 10px;
+    font-size: 14pt;
+    background-color: #72bbf4;
+    border-style: none;
+    color: #ffffff; /* Белый текст */
+}
+
+.Registration  button:hover {
+    background-color: #51ef83;
+}
+
+.Registration #loginError {
+    color: red;
+    margin-top: 10px;
+}
